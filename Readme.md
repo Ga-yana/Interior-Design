@@ -1,7 +1,7 @@
 # Interior Designer Page
 By Ga-yana :couch_and_lamp:
 
-![project 5](https://img.shields.io/badge/Project%20-9-yellowgreen) ![iNeuron](https://img.shields.io/badge/iNeuron-FullStack-grey)
+![project 5](https://img.shields.io/badge/Project%20-10-yellowgreen) ![iNeuron](https://img.shields.io/badge/iNeuron-FullStack-grey)
 ![HTML CSS](https://img.shields.io/badge/HTML-CSS-blue)  
 #
 
