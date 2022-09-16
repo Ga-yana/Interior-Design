@@ -6,6 +6,7 @@ By Ga-yana :couch_and_lamp:
 #
 
 ## A static homepage for an interior designer.
+Tablet and Mobile responsive.
 
 ### Click [here](https://darkinteriordesigner.netlify.app/) to see it live
 

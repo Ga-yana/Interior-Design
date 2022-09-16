@@ -37,7 +37,9 @@ body{
     font-size: 19px;
     font-weight: 600;
 }
-
+.bars{
+    display:none;
+}
 .call{
     display: flex;
     align-items: center;
@@ -71,18 +73,13 @@ container{
 
 .top{
     display: flex;
-    height: 250px;
-    
     align-items: center;
     justify-content:space-around;
 }
 
 .bottom{
     display: flex;
-    height: 250px;
-    
     align-items: center;
-    /* justify-content: space-around; */
 }
 
 .heading{
@@ -173,4 +170,104 @@ container{
         height: 17px;
         
 }
+
+
+@media screen and (max-width:768px){
+    body{
+        background-size:250%;
+        background-position: center;
+    } 
+    .logo{
+        font-size: 21px;
+    }
+    .lists{
+        margin-left: 0;
+        font-size: 13px;
+        font-weight: 400;
+        gap: 30px;
+    }
+    .call{
+        font-size: 14px;
+        padding: 0px;
+    }
+    .tele{
+        width: 30px;
+    }
+    .heading{
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    .line-1, .line-2{
+        font-size: 15px;
+    }
+    .puzzle, .bulb{
+        width: 50px;
+    }
+    .box-1{
+        padding: 10px;
+    }
+    .box-2{
+        padding: 10px;
+        margin-left: 150px;
+    }
+    .learn{
+        font-size: 16px;
+        padding: 10px 15px;
+        font-weight: 300;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+   body{
+    background-size: 600%;
+    background-position: 25% 75%;
+   }
+   .logo{
+    font-size: 20px;
+   }
+   .lists{
+    display:none;
+   }
+   .heading{
+    font-size: 25px;
+    margin-top: 40px;
+   }
+   .learn{
+    margin-left: 0px;
+    font-size: 14px
+   }
+   .box-2{
+    margin-left: 0px; ;
+   }
+   .box-1{
+    max-width: 150px;
+    margin-left: 140px;
+   }
+   container{
+    gap: 30px;
+   }
+   .top{
+    display: flex;
+    flex-direction: column;
+   }
+   .bottom{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 75px;
+   }
+   .vl, .circle, .thin{
+    display: none;
+   }
+   .fa-bars{
+    margin-left: 100px;
+    color: #ffffff;
+   }
+   .bars{
+    display: flex;
+    text-decoration: none;
+   }
+}
+
+
 
